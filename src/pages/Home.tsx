@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { ChevronRight, Droplets, Instagram, Twitter, Facebook, ArrowRight, Play } from "lucide-react"
 import { Button } from '../components/ui/button'
@@ -7,7 +6,6 @@ import FeaturedProducts from "@/components/featured-products"
 import Newsletter from "@/components/newsletter"
 import MobileMenu from "@/components/mobile-menu"
 import Testimonials from "@/components/testimonials"
-import InstagramFeed from '../components/instagram-feed'
 import VideoSection from "@/components/video-section"
 
 const Home = () => {

@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Our_initiatives = () => {
   return (

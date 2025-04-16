@@ -1,9 +1,7 @@
 
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { useMobile } from "../hooks/use-mobile"
-import { ArrowRight } from "lucide-react"
+// import { useMobile } from "../hooks/use-mobile"
 
 const products = [
   {
@@ -50,9 +48,9 @@ const products = [
 
 export default function ProductShowcase() {
   const [activeTab, setActiveTab] = useState("sparkling")
-  const isMobile = useMobile()
+  // const isMobile = useMobile()
 
-  const activeProduct = products.find((p) => p.id === activeTab) || products[0]
+  // const activeProduct = products.find((p) => p.id === activeTab) || products[0]
 
   return (
     <div>
